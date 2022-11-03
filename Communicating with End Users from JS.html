@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Different ways to display information</title>
+</head>
+
+<body>
+	<h2>Different ways to display information</h2>
+	<p id="code"></p>
+	
+	<script>
+		document.getElementById("code").innerHTML = "Hello World! This is from the setting of the innnerHTML";
+	</script>
+	
+	<p>Hello World! I am from within the paragraph tag in the HTML page</p>
+	
+	<script>
+		document.write("Hello World! I am from the first document.write()")
+	</script>
+	<br>
+	<br>
+	
+	<button onClick="window.alert('Hello World!I am from the window alert')">Click me to view a window alert</button>
+	<br>
+	<br>
+	
+	<button onClick="document.write('Hello World! I am from the second document.write()')">Click me to clear the existing HTMl</button>
+	
+	<script>console.log("Hello World! This is the console message")</script>
+</body>
+</html>
